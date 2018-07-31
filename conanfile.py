@@ -10,7 +10,7 @@ class LibPcapConan(ConanFile):
     """Donwload pcap library, build and create package
     """
     name = "libpcap"
-    version = "1.8.1"
+    version = "1.9.0"
     generators = "cmake", "txt"
     settings = "os", "arch", "compiler", "build_type"
     options = {
